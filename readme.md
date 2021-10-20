@@ -66,6 +66,39 @@ To https://github.com/mukeshrana/repo3.git
    0652aa9..97b1439  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
+//Create new branch
+$ git branch develop
+
+mukesh.rana@INND3LTC9LMDB3 MINGW64 /c/projects/test/repo3 (master)
+$ git branch
+  develop
+* master
+
+//switch to develop branch
+mukesh.rana@INND3LTC9LMDB3 MINGW64 /c/projects/test/repo3 (master)
+$ git checkout develop
+Switched to branch 'develop'
+
+mukesh.rana@INND3LTC9LMDB3 MINGW64 /c/projects/test/repo3 (develop)
+$ git status
+On branch develop
+nothing to commit, working tree clean
+
+mukesh.rana@INND3LTC9LMDB3 MINGW64 /c/projects/test/repo3 (develop)
+$ git push -u origin develop
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/mukeshrana/repo3/pull/new/develop
+remote:
+To https://github.com/mukeshrana/repo3.git
+ * [new branch]      develop -> develop
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+
+
+=======================
+
+
 git config = configure username, repo and email
 git init = initialize local git repo
 git clone = clone the remote repo to local folder
